@@ -7,6 +7,7 @@
     <title>Cadastro de Produto</title>
 </head>
 <body>
+    <a class="voltar" href="index.html">Voltar</a>      
     <h2>Cadastro de Produto</h2>
     <form class="container" action="/produtos" method="post">
         <label for="nome">Nome:</label>
@@ -18,9 +19,7 @@
         <label for="estoque">Estoque:</label>
         <input type="number" id="estoque" name="estoque" required min="0"><br>
 
-        <button type="submit">Cadastrar</button>
+        <button class="cad" type="submit">Cadastrar</button>
     </form>
-    <br>
-    <button onclick="window.location.href='/produtos'">Listar Produtos</button>
 </body>
 </html>

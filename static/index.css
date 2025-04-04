@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ccc;
+    background-color: #BBE1FA;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -19,7 +19,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #00b36e;
 }
 #links{
     display: flex;
@@ -28,7 +28,7 @@ button:hover {
     align-items: center;
     padding: 3%;
     gap: 20px;
-    background-color: white;
+    background-color: #f0f5f9;
     margin: 3% 30%;
     height: 100%; 
     width:30%;
